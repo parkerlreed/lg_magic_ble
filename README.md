@@ -3,6 +3,10 @@ Discoveries reverses engineering the BLE HID descriptors
 
 HID raw stream breaks up in 20 byte segments
 
+## New findings
+
+Thanks to @Informatic, we have discovered that the motion data is 2 six bytes chuinks of big endian int16.
+
 ## Updated findings
 
 I'm breaking this into decimal so it's easier to parse.
@@ -17,18 +21,18 @@ The rest seems like raw acceleromter data.
 49        Counter (00 to FF incremenmnts every message)
 253       Constant
 0         Constant
-255       Motion
-237       Motion 
-255       Motion
-248       Motion
-255       Motion
-255       Motion
-0         Motion (Roll along X axis)
-32        Motion 
-254       Motion
-107       Motion
-240       Motion
-45        Motion
+255       Motion -- INT16 chunk
+237       Motion -/
+255       Motion -- INT16 chunk
+248       Motion -/
+255       Motion -- INT16 chunk
+255       Motion -/
+0         Motion -- INT16 chunk (Roll along X axis)
+32        Motion -/
+254       Motion -- INT16 chunk
+107       Motion -/
+240       Motion -- INT16 chunk
+45        Motion -/
 0         Is button pressed (0 or 128)
 0         Button code
 0         Scrollwheel (Up 1, Down 255)
