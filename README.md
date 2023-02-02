@@ -7,7 +7,7 @@ HID raw stream breaks up in 20 byte segments
 
 I'm breaking this into decimal so it's easier to parse.
 
-The only motion data that is consistent is the 12th bytes. I can twist the remote in my hand and get a flat value of 0 and ~240 left 90 degress and 15 right 90 degress.
+The only motion data that is consistent is the 12th byte. I can twist the remote in my hand and get a flat value of 0 and ~240 left 90 degress and 15 right 90 degress.
 
 The reset seems like raw acceleromter data.
 
