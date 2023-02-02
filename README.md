@@ -14,7 +14,7 @@ The rest seems like raw acceleromter data.
 ```
 253       Constant
 214       Unknown (range of about 180 to 220)
-49        Counter (00 to FF incremenmnts every message
+49        Counter (00 to FF incremenmnts every message)
 253       Constant
 0         Constant
 255       Motion
