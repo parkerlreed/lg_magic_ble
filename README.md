@@ -32,7 +32,6 @@ The reset seems like raw acceleromter data.
 0         Is button pressed (0 or 128)
 0         Button code
 0         Scrollwheel (Up 1, Down 255)
-
 ```
 
 ## Intiial findings
