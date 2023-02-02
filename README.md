@@ -34,6 +34,47 @@ The rest seems like raw acceleromter data.
 0         Scrollwheel (Up 1, Down 255)
 ```
 
+Keymap
+| Button | Hex |
+| ------------- | ------------- |
+| 1  | 11 |
+| 2  | 12 |
+| 3  | 13 |
+| 4  | 14 |
+| 5  | 15 |
+| 6  | 16 |
+| 7  | 17 |
+| 8  | 18 |
+| 9  | 19 |
+| 0  | 10 |
+| LIST  | 4C |
+| QAM  | 45 |
+| Vol Up  | 02 |
+| Vol Down  | 03 |
+| Chan Uo  | 00 |
+| Chan Down  | 01 |
+| Mute  | 09 |
+| Mic  | 8B |
+| Home  | 7C |
+| Input  | 0B |
+| Up  | 40 |
+| Down  | 41 |
+| Left  | 07 |
+| Right  | 06 |
+| Wheel click  | 44 |
+| Back  | 28 |
+| Settings  | 43 |
+| Red  | 72 |
+| Green  | 71 |
+| Yellow  | 63 |
+| Blue  | 61 |
+| App 1  | 56 |
+| App 2  | 5C |
+| App 3  | 31 |
+| App 4  | 48 |
+| App 5  | 05 |
+| App 6  | 0C |
+
 ## Intiial findings
 
 ```
